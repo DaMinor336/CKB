@@ -41,12 +41,12 @@ select * from t_lovgroups -- Системный справочник
 
 select * from t_lovs -- Системный справочник
 
-select * from 
+select * from abc -- - - -- - - -- - - - - -- - - - -- - - -- - - - -- - - - - - 
 
-select * from 
+select * from
 
-select * from 
+select * from
 
-select * from 
+select * from
 
-select * from 
+select * from
