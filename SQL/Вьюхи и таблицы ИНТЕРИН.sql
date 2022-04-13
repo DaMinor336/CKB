@@ -1,4 +1,5 @@
 -- Вьюхи и таблицы ИНТЕРИН
+--
 select * from t_med_chrts -- Мед. карты
 
 select * from t_tlists -- Титульные листы мед карт, id-шники Даты рождения, ФИО, Возраста; Привязаны к id t_med_chrts
@@ -41,7 +42,7 @@ select * from t_lovgroups -- Системный справочник
 
 select * from t_lovs -- Системный справочник
 
-select * from  
+select * from
 
 select * from
 

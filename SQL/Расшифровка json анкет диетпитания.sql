@@ -1,3 +1,4 @@
+-- Расшифровка json анкет диетпитания
 select x.id,
        x.date_in,
        x.date_out,
