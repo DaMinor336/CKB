@@ -1,4 +1,5 @@
 -- Все выбывшие пациенты 
+--
   SELECT u.in_date hosp_in_date,
          w.out_date hosp_out_date,
          case when trunc (w.out_date) - trunc (u.in_date) = 0
