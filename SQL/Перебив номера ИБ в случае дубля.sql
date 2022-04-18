@@ -1,17 +1,17 @@
 declare
-  ak_num number;  
+  ak_num number;
 begin
     ak_num     := t_chrt_codes.get_numb_next(
-      '»¡', 
-      1, 
-      99999999, 
-      'ANY', 
-      'FIRST_FREE', 
+      '–ò–ë', 
+      1,
+      99999999,
+      'ANY',
+      'FIRST_FREE',
       'I_MC');
 
     t_chrt_codes.lock_chart_number(
-      ak_num, 
-      '»¡', 
+      ak_num,
+      '–ò–ë',
       'I_MC');
   dbms_output.put_line('ib_num= '||ak_num);
 end;
