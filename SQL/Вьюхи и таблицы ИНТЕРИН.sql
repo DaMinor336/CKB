@@ -42,7 +42,7 @@ select * from t_lovgroups -- Системный справочник
 
 select * from t_lovs -- Системный справочник
 
-select * from
+select * from od_vpriems -- Вьюха приемов пациента
 
 select * from
 
