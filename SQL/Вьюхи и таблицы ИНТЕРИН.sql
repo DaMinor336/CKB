@@ -44,9 +44,9 @@ select * from t_lovs -- Системный справочник
 
 select * from od_vpriems -- Вьюха приемов пациента
 
-select * from
+select * from s_sht_rasps -- Коды должностей ЦКБ
 
-select * from
+select * from S_APPOINTS -- Название должностей в ЦКБ
 
 select * from
 
