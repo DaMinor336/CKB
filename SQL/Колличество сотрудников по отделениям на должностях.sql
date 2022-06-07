@@ -1,10 +1,10 @@
-select o.s_str_org_id "ID отделения",
-       min(o.fullname) "Полное название отделения",
-       min(o.shortname) "Короткое название отделения",
-       a.s_appoint_id "ID Должности",
-       min(a.fullname) "Название должности",
-       min(a.kind) "Тип должности",
-       count(s.t_person_id) "Колличество сотрудников"
+select o.s_str_org_id "ID РѕС‚РґРµР»РµРЅРёСЏ",
+       min(o.fullname) "РџРѕР»РЅРѕРµ РЅР°Р·РІР°РЅРёРµ РѕС‚РґРµР»РµРЅРёСЏ",
+       min(o.shortname) "РљРѕСЂРѕС‚РєРѕРµ РЅР°Р·РІР°РЅРёРµ РѕС‚РґРµР»РµРЅРёСЏ",
+       a.s_appoint_id "ID Р”РѕР»Р¶РЅРѕСЃС‚Рё",
+       min(a.fullname) "РќР°Р·РІР°РЅРёРµ РґРѕР»Р¶РЅРѕСЃС‚Рё",
+       min(a.kind) "РўРёРї РґРѕР»Р¶РЅРѕСЃС‚Рё",
+       count(s.t_person_id) "РљРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ"
 from s_str_orgs o,
      s_sht_rasps r,
      S_APPOINTS a,
