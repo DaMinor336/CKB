@@ -15,3 +15,6 @@ where dwork>to_date('01.12.2021','dd.mm.yyyy') and
       dbend_for is null and
       dbend_for_alt is null and
       dbend_for_alt2 is null
+ --
+ -- Пакет импорта из паруса
+ Z.CKB_IMPORT_PARUS
