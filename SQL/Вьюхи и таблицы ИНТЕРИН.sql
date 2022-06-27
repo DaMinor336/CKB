@@ -50,6 +50,6 @@ select * from s_sht_rasps -- Коды должностей ЦКБ
 
 select * from S_APPOINTS -- Название должностей в ЦКБ
 
-select * from
+select * from wi.xs$fd -- Хранилище с документами
 
 select * from
