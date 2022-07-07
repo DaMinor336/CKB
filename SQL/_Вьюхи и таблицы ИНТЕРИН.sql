@@ -22,7 +22,7 @@ select * from s_str_orgs -- Отделения
 
 select * from s_sht_rasps -- Штатное расписание
 
-select * from s_sht_zaps -- Штатное заполнение (Исполнения)
+select * from s_sht_zaps -- Штатное заполнение (Исполнения) Список всех сотрудников и их должностей
 
 select * from ddg_heads -- Шапки, привязаны к id t_med_chrts
 
