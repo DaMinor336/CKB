@@ -31,11 +31,11 @@ begin
   obj.put('CHART_ID',595924);
   wi.jsdb.put(obj);
 end;
--- Для исследований возможно гдето придется апдейтить таблицу od_vorders
+--  возможно  придется апдейтить таблицу od_vorders
 update od_vorders o
    set chart_id=636526
 where o.CHART_ID = 197546
-  and o.stype = 'ST_DIAG'
+  and o.stype = 'сюда нужно поставить нужно значение в зависимости от того что мы переносим услуга, прием и тд'
   and o.id = 14676962
 
 --
