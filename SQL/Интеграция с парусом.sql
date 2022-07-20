@@ -18,8 +18,7 @@ where dwork>to_date('01.05.2022','dd.mm.yyyy') and
       dbend_for_alt2 is null
 
       --and sdocpref = '2019Л' and sdocnumb = '2660'
-
-   --  and sclnpersons like 'Рафаэлова%'
+      --and sclnpersons like 'Рафаэлова%'
  --
  -- Пакет импорта из паруса
  Z.CKB_IMPORT_PARUS
