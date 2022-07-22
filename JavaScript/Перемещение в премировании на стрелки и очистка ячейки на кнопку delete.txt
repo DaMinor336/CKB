@@ -1,4 +1,5 @@
 -- Перемещение в премировании на стрелки и очистка ячейки на кнопку delete
+-- Форма I.ECO.TABEL.BONUS.PERSONS
 var DO_CHANGE = true;
 var currItem  = null;
 
@@ -21,7 +22,7 @@ form.on("focus change_ click_", function(data, item, value) {
 form.on('pressKey:up', function(data, action) {
     if (currItem){
         let arr = currItem.split(".");
-        if (parseInt(arr[3]) > 1) {
+        if (parseInt(arr[3]) > 0) {
             arr[3] = parseInt(arr[3])-1;
             $('input[ips-path="'+arr.join(".")+'"]').focus();
         } else {
@@ -32,7 +33,7 @@ form.on('pressKey:up', function(data, action) {
 form.on('pressKey:down', function(data, action) {
     if (currItem){
         let arr = currItem.split(".");
-        if (parseInt(arr[3]) < form.data.ROWS.length-1) {
+        if (parseInt(arr[3]) < form.data.ROWS.length -3) {
             arr[3] = parseInt(arr[3])+1;
             $('input[ips-path="'+arr.join(".")+'"]').focus();
         } else {
