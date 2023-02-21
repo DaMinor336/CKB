@@ -1,5 +1,5 @@
--- Перемещение в премировании на стрелки и очистка ячейки на кнопку delete
--- Форма I.ECO.TABEL.BONUS.PERSONS
+// Перемещение в премировании на стрелки и очистка ячейки на кнопку delete
+// Форма I.ECO.TABEL.BONUS.PERSONS
 var DO_CHANGE = true;
 var currItem  = null;
 
