@@ -54,4 +54,8 @@ select * from S_APPOINTS -- Название должностей в ЦКБ
 
 select * from wi.xs$fd -- Хранилище с документами
 
-select * from
+select * from od_orders  -- Назначения на пациентов 
+
+select * from n_medic_regs -- Лек. препараты
+
+select * from od_drugs  -- Связь между назначениями и лек. препаратами 
