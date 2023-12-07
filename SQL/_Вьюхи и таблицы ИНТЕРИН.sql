@@ -30,7 +30,7 @@ select * from am_vsmp_ckbudp -- Вьюха, вызовы скорой помощ
 
 select * from ec_srvs -- Услуги
 
- select * from od_orders -- Услуги по пациентам 
+select * from od_orders -- Услуги по пациентам 
 
 select * from ec_costs -- Стоимости услуг
 
