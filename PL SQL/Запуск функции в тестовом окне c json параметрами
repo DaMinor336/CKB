@@ -1,0 +1,21 @@
+declare
+  -- Local variables here
+  i integer;
+begin
+  -- Test statements here
+  declare
+    -- Non-scalar parameters require additional processing 
+    result      json;
+    params      json := json();
+    result_clob clob;
+  begin
+    -- Call the function  
+    params.put('EDATE', '19.05.2024 09:00:00');
+    params.put('BDATE', '20.05.2024 08:59:00');
+    params.put('TYPE', 'orvi_stac_pat_count');
+    result := wix.gmu_integration_vc.get_stac_patients(params => params);
+    dbms_lob.createtemporary(result_clob, true);
+    result.to_clob(result_clob);
+    DBMS_OUTPUT.put_line(result_clob);
+  end;
+end;
